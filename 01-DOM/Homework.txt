@@ -1,0 +1,14 @@
+DOM
+El dom es como el indice de un libro pero de una pagina web. La persona que usa la pagina web no ve el DOM. 
+Pero los que trabajan haciendo la página si lo ven y lo usan para llegar a distintas partes de la pagina.
+Y desde el DOM, es decir desde el indice, se pueden encontrar cosas para modificarlas o trabajar sobre ellas.
+
+DOM element selector
+Se usan para trae elementos que estan en el DOM. Sirve para buscar y ubicar. Es como si usasemos el indice de un libro
+para llegar a un capitulo o a un apéndice. Con los selectores podemos buscar lo que sea.
+
+DOM events.
+Los eventos son interacciones que ocurren entre el usuario y la página web. 
+Para el ejemplo del libro es como si tocaramos la punta de la hoja para pasar de Hoja.
+El ejemplo con la pagina web seria hacer Click para pasar a la página siguiente.
+Algunos ejemplos de eventos son hacer click, o arrastrar algo, o pasar el mouse por encima, etc...
