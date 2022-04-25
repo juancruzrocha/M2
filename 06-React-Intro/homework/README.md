@@ -10,7 +10,7 @@ En este homework, vamos a crear una serie de Componentes de React que luego vamo
 
 En la carpeta `src` vas a encontrar ya el esqueleto del proyecto React, y los archivos donde deberás codear cada Componente.
 
-Sabemos que los Componentes de React tiene que cumplir el principio de una sóla responsabilidad, es decir que cada Componente debé cumplir una sóla tarea bien definida. Los Componentes que vamos a codear son:
+Sabemos que los Componentes de React tiene que cumplir el principio de una sóla responsabilidad, es decir que cada Componente debé cumplir una sóla tarea bien definida. Los Componentes queaaa vamos a codear son:
 
 
 #### Weather Card (`components/Card.js`)
