@@ -1,0 +1,29 @@
+.contenedor{
+ margin: auto;
+ padding: auto;  
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ 
+ padding: 20px;
+ 
+}
+
+
+.button {
+    background-color: red;
+    color: aliceblue;
+    display: flex;
+    border-radius: 5px;
+}
+
+.card {
+    color:rgb(114, 94, 215);
+    background-color: rgb(228, 201, 216);
+    border-style: inset;
+    border-color: aqua;
+    border-radius: 10px;
+    width: 300px ;
+    margin: 10px;
+}
