@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import estilos from './components/Card.jsx';
-import estilos from './components/SearchBar.jsx';
+import Card from './components/Card.jsx';
+import Cards from './components/Cards.jsx';
+import SearchBar from './components/SearchBar.jsx';
 import data, { Cairns } from './data.js';
-import estilos from './components/Cards.jsx';
-
 
 function App() {
   return (
     <div className="App">
-     {/*<div>
+      {/*<div>
         <Card
           max={Cairns.main.temp_max}
           min={Cairns.main.temp_min}
@@ -19,7 +18,7 @@ function App() {
         />
       </div>*/}
       <hr />
-      <div> 
+      <div>
         <Cards
           cities={data}
         />
@@ -28,7 +27,6 @@ function App() {
       <div>
         <SearchBar
           onSearch={(ciudad) => alert(ciudad)}
-          
         />
       </div>
     </div>
@@ -36,5 +34,4 @@ function App() {
 }
 
 export default App;
-
 

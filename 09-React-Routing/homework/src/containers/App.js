@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-
+import { Route , Routes} from 'react-router-dom';
 import './App.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
+import About from '../components/About.jsx'
+import Ciudad from '../components/Ciudad.jsx'
 
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
@@ -44,18 +46,27 @@ function App() {
         return null;
     }
   }
+
+
+
+
   return (
     <div className="App">
-      <Nav onSearch={onSearch}/>
-      <div>
-        <Cards
-          cities={cities}
-          onClose={onClose}
-        />
-      </div>
-      <hr />
+     <Routes>
+       <Route path= '/' render = { () => <Nav onSearch={onSearch}/> } />
+       <Route exact path= '/' render = { () => <Cards
+           cities={cities}
+           onClose={onClose}
+           /> } />
+       <Route exact path='/about' render = { () => <About/> } />
+       <Route exact path='/ciudad/:ciudadId' render = { ({match}) => <Ciudad ciudadId= {match.params.ciudadId}     />}/>
+     </Routes>  
+      
     </div>
   );
 }
+      
+      
+      
 
-export default App;
+export default App; // Esto es para importarlo con el nombre
