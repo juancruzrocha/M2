@@ -13,7 +13,7 @@ function Nav({onSearch}) {
           Henry - Weather App
         </span>
       </Link>
-      <Link to='/about'> About </Link>
+      <Link to='/about'> About  </Link>
         <SearchBar
           onSearch={onSearch}
         />

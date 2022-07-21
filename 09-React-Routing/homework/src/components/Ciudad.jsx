@@ -1,6 +1,6 @@
 import React from "react";
 
-function Ciudad () {
+function Ciudad (ciudadId) {
     console.log(ciudadId)
     return (
         <div> Componente Ciudad </div>

@@ -33,21 +33,21 @@
     constructor(props) {
       super(props);
       this.state = {
-        title: 'Henry'
+        title: ''
       };
       this.onButtonClick = this.onButtonClick.bind(this);
     }
 
     onButtonClick() {
       this.setState({
-        title: this.state.title === "Henry" ? "Franco" : "Henry"
+        title: this.state.title === "Juan Manuel" ? "Juan Cruz" : "Juan Manuel"
       });
     }
 
     render(){
       return (
         <div>
-          <h1>DEMO - Father title: {this.state.title}</h1>
+          <h1>Apreta para seleccionar un hermano: {this.state.title}</h1>
           <Children title={this.state.title} />
           <button onClick={this.onButtonClick}>Click me!</button>
         </div>

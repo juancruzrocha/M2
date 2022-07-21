@@ -19,7 +19,7 @@
   }
 
     onMove() {
-      console.log('Mouse move');
+      console.log('Se movió el ratón');
     }
 
     componentDidMount() {
@@ -51,7 +51,7 @@
     }
     
     render() {
-      console.log('renderié!');
+      console.log('rendericé!');
       return (
         <div id="numero">
           {this.props.numero}
@@ -79,12 +79,12 @@
         <div>
          <button onClick={this.onButtonClick}>Suma uno!</button>
          <Numero numero={this.state.contador} />
-         <div ref={this.listRef}>Hola</div>
+         <div ref={this.listRef}>Hasta 5</div>
         </div>  
       )
     }
   };
-  ReactDOM.render(<Contador contador={0} />, document.getElementById('app'));
+  ReactDOM.render(<Contador contador={-3} />, document.getElementById('app'));
   </script>
 </body>
 </html>
